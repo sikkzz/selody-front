@@ -13,6 +13,7 @@ import {
 	GroupSchedulePage,
 	MyPage,
 	FeedPage,
+	GroupPage,
 } from "@/pages";
 
 import { getCurrentUser } from "./features/user/user-service.js";
@@ -34,6 +35,7 @@ const router = createBrowserRouter([
 	{ path: "/landing", element: <LandingPage /> },
 	{ path: "/login", element: <LoginPage /> },
 	{ path: "/signup", element: <SignUpPage /> },
+	{ path: "group", element: <GroupPage /> },
 ]);
 
 export default function App() {

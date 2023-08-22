@@ -1,5 +1,6 @@
 import ErrorPage from "./ErrorPage/ErrorPage";
 import FeedPage from "./FeedPage";
+import GroupPage from "./GroupPage/GroupPage";
 import GroupSchedulePage from "./GroupSchedulePage";
 import LandingPage from "./LandingPage";
 import LoginPage from "./LoginPage/LoginPage";
@@ -18,4 +19,5 @@ export {
 	GroupSchedulePage,
 	MyPage,
 	FeedPage,
+	GroupPage,
 };
