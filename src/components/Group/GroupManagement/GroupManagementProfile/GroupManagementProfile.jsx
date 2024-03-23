@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import DefaultProfile from "@/assets/img/img-selody-logo/3x.png";
+// import DefaultProfile from "@/assets/img/img-selody-logo/3x.png";
 import GroupDeleteModal from "@/components/Common/GroupModal/GroupDeleteModal/GroupDeleteModal";
 import GroupExitModal from "@/components/Common/GroupModal/GroupExitModal/GroupExitModal";
 import ToggleButton from "@/components/Common/ToggleButton/ToggleButton";
@@ -36,7 +36,7 @@ const GroupManagementProfile = ({ groupInfo }) => {
 	const { groupId, isPublicGroup } = groupInfo.information.group;
 	const memberLength = groupInfo.information.memberInfo.length;
 
-	const defaultProfileImg = groupInfo.information.group.image ?? DefaultProfile;
+	const defaultProfileImg = groupInfo.information.group.image;
 
 	const [isPublic, setIsPublic] = useState(isPublicGroup);
 
